@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -36,4 +37,150 @@ a {
   color: #fff;
   padding: 16px 41px;
   border-radius: 50px;
+}
+
+img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.section__clients {
+  background-color: #FCFCFC;
+  padding: 70px 0;
+}
+
+.clinets__title {
+  font-size: 54px;
+  text-align: center;
+}
+
+.clients__holder {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.clients__holder .clients__profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.clients__holder .clients__profile .clients__profile__left {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.clients__holder .clients__profile .clients__profile__left .client__name {
+  margin-left: 15px;
+}
+
+.clients__box {
+  width: 40%;
+  margin: 0 20px;
+  background-color: #fff;
+}
+
+.clients__content p {
+  width: 90%;
+  line-height: 2rem;
+  margin-bottom: 15px;
+}
+
+.clients__content {
+  padding: 20px 15px;
+}
+
+.clients__name h3 {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.clients__profile__right {
+  color: lightgray;
+}
+
+.clients__holder--icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients__holder--icon a {
+  margin: 0 15px;
+  color: #657582;
+}
+
+.holder__icon {
+  width: 30px;
+  color: #64BB47;
+}
+
+.newsletter__input {
+  padding: 14px 41px;
+  border-radius: 50px;
+  font-size: 18px;
+  margin-right: 10px;
+  border: 1px solid lightgray;
+  outline: none;
+}
+
+form .btn {
+  font-size: 20px;
+}
+
+.newsletter__title {
+  font-size: 36px;
+}
+
+.newsletter__text {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.newsletter {
+  text-align: center;
+  line-height: 3rem;
+  margin: 100px 0;
+}
+
+.footer__holder {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+
+.footer__box:first-child {
+  width: 20%;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.footer__logo h2 {
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.footer__box {
+  line-height: 2rem;
+}
+.footer__box a {
+  color: #657582;
+  font-size: 20px;
+}
+.footer__box a strong {
+  font-size: 22px;
+  color: black;
+}
+
+.strong__margin {
+  margin-bottom: 10px;
+}
+
+.footer__end {
+  text-align: center;
+  padding: 20px 0;
+  background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 1px;
 }/*# sourceMappingURL=style.css.map */
