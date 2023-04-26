@@ -1,3 +1,77 @@
 @import "./fonts";
 @import "./normalize";
 @import "./mixins";
+.navbar{
+  display: flex;
+  margin-top: 40px;
+}
+.navbar_ul{
+  display: flex;
+}
+.navbar_texts{
+  margin-left: 20px;
+  color: black;
+}
+.icons{
+  margin-left: 500px;
+}
+.header{
+  display: flex;
+}
+.header_h1{
+  font-size: 57px;
+  margin-top: 150px;
+  font-family: Arial;
+}
+.header_p{
+  font-size: 20px;
+  font-family: Arial;
+  color: gray;
+  margin-top: 10px;
+}
+.header_img{
+  width: 650px;
+}
+
+.h1_span{
+  color: #5FB848;
+}
+.navbar-h1{
+  font-size: 26px;
+  margin-top: 10px
+}
+#btn{
+  margin-top: 20px;
+  border: none;
+}
+.section_h1{
+  font-size: 57px;
+  margin-top: 150px;
+  font-family: Arial;
+  text-align: center;
+}
+.section_p{
+  font-size: 20px;
+  font-family: Arial;
+  text-align: center;
+  color: gray;
+}
+.section-boxes{
+  display: flex;
+  margin-top: 70px;
+}
+.section-boxes .section-box-1{
+  margin-left: 130px;
+  text-align: center;
+  font-family: Arial;
+}
+.section-box-1-p{
+  color: gray;
+  margin-top: 20px;
+}
+.number{
+  margin-top: 50px;
+}
+.number_h1{
+  font-size: 50px;
+}
