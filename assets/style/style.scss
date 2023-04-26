@@ -1,3 +1,82 @@
 @import "./fonts";
 @import "./normalize";
 @import "./mixins";
+
+.text {
+  font-size: 22px;
+  color: #181d19;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.title {
+  font-style: normal;
+  font-weight: 770;
+  font-size: 54px;
+  line-height: 68px;
+  color: #151414;
+}
+.center {
+  margin-top: 100px;
+  display: flex;
+}
+.center__first {
+  margin-top: 80px;
+}
+
+.center__second {
+  margin-left: 350px;
+  display: flex;
+  position: relative;
+}
+.image {
+  margin-top: -30px;
+  margin-bottom: 10px;
+}
+.img {
+  margin-left: 10px;
+}
+.Fresh {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.left {
+  margin-left: 230px;
+}
+
+.Best {
+  margin-top: 80px;
+  display: flex;
+}
+.Best__cook {
+  margin-top: 150px;
+  margin-right: 250px;
+}
+
+.check a {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: black;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.check p {
+  margin-left: 10px;
+}
+
+.Best__dish {
+  position: relative;
+}
+.leaf {
+  position: absolute;
+  top: 320px;
+  left: 415px;
+}
+.leafs {
+  position: absolute;
+  top: 200px;
+  left: 20px;
+  z-index: -1;
+}
