@@ -66,9 +66,8 @@ img{
         color: #64BB47;
     }
 }
-
 .newsletter__input {
-    padding: 14px 41px;
+    padding: 11px 41px;
     border-radius: 50px;
     font-size: 18px;
     margin-right: 10px;
@@ -94,9 +93,7 @@ form .btn {
 .footer__holder{
     display: flex;
     justify-content: space-between;
-    margin: 50px 0;
-    
-    
+    margin: 50px 0;  
 }
 .footer__box:first-child{
     width: 20%;
@@ -124,7 +121,6 @@ form .btn {
 .strong__margin {
     margin-bottom: 10px;
 }
-
 .footer__end {
     text-align: center;
     padding: 20px 0;
@@ -132,7 +128,11 @@ form .btn {
     font-size: 18px;
     color: #fff;
     letter-spacing: 1px;
-}    
+}  
+
+
+
+
 .section__head{
   margin-top: 20px;
   text-align: center;
