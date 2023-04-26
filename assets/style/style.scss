@@ -132,4 +132,138 @@ form .btn {
     font-size: 18px;
     color: #fff;
     letter-spacing: 1px;
+}    
+.section__head{
+  margin-top: 20px;
+  text-align: center;
+   h1{
+    font-weight: 770;
+    font-size: 54px;
+    line-height: 68px;
+    color: #151414;
+  }
+  p{
+    padding-top: 20px;
+    font-weight: 350;
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+.food__item{
+  width: 356px;
+  height: 520px;
+  text-align: center;
+  background: #FFFFFF;
+  border: 1px solid #EBEBEB;
+  border-radius: 20px;
+}
+.food__item__2{
+  width: 356px;
+  height: 520px;
+  text-align: center;
+  background: #FFFFFF;
+  box-shadow: -15px -50px 81px #FFFFFF, 10px 20px 70px rgba(71, 68, 68, 0.08);
+  border-radius: 20px;
+}
+.food_item{
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  img{
+  margin-top: 40px;
+  }
+  h3{
+    padding-top: 27px;
+    font-weight: 770;
+    font-size: 30px;
+    line-height: 38px; 
+  }
+  p{
+    padding-top: 20px;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+.button_item{
+  margin-top: 60px;
+  text-align: center;
+}
+.text {
+  font-size: 22px;
+  color: #181d19;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.title {
+  font-style: normal;
+  font-weight: 770;
+  font-size: 54px;
+  line-height: 68px;
+  color: #151414;
+}
+.center {
+  margin-top: 100px;
+  display: flex;
+}
+.center__first {
+  margin-top: 80px;
+}
+
+.center__second {
+  margin-left: 350px;
+  display: flex;
+  position: relative;
+}
+.image {
+  margin-top: -30px;
+  margin-bottom: 10px;
+}
+.img {
+  margin-left: 10px;
+}
+.Fresh {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.left {
+  margin-left: 230px;
+}
+
+.Best {
+  margin-top: 80px;
+  display: flex;
+}
+.Best__cook {
+  margin-top: 150px;
+  margin-right: 250px;
+}
+
+.check a {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: black;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.check p {
+  margin-left: 10px;
+}
+
+.Best__dish {
+  position: relative;
+}
+.leaf {
+  position: absolute;
+  top: 320px;
+  left: 415px;
+}
+.leafs {
+  position: absolute;
+  top: 200px;
+  left: 20px;
+  z-index: -1;
 }
